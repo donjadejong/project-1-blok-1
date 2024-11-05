@@ -1,0 +1,146 @@
+body {
+  background-color: #E3DEDA;
+  color: black;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  box-sizing: border-box;
+  width: fit-content;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h2 {
+  margin: 16px;
+  text-align: center;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-style: italic;
+  margin: 16px;
+  text-align: center;
+}
+
+header {
+  background-color: #8f484a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  margin: 0em;
+}
+
+header a {
+  transition: background 500ms ease-in-out;
+}
+
+header a:active {
+  background: grey;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-decoration: none;
+  width: 100%; 
+  
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+  justify-content: center;
+  margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+li {
+  display: inline-block;
+  flex: 1;
+}
+
+header a {
+  
+  text-decoration: none;
+  padding: 8px 30px;
+    font-size: 16px;
+    background-color: #89999F;
+    color: black;
+    border: 3px solid black;
+    border-radius: 50px;
+    white-space: nowrap;
+}
+
+a:active {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 3em;
+  margin-top: 3em;
+}
+
+.container p {
+  margin-right: 55em;
+  flex-wrap: wrap;
+}
+
+.overons {
+  margin: 3em;
+}
+
+.afleveringen {
+  margin: 3em;
+  display: flex;
+  align-items: center;
+  margin-right: 2em;
+}
+
+.profiles {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em;
+  flex-wrap: wrap;
+}
+
+.description {
+  margin: 3em;
+}
+
+footer {
+  background-color: #8f484a;
+  height: 5em;
+  width: 100%;
+  margin-top: 9em;
+}
+
+footer img{
+max-height: 5em;
+max-width: 5em;
+}
+
+hr {
+  width: 95%;
+}
+
+body main img{
+  height: 15em;
+  max-height: 15em;
+  max-width: 40em;
+  margin: 16px;
+  text-align: center;
+}
